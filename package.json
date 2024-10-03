@@ -1,5 +1,5 @@
 {
-  "name": "r3f-vite-starter",
+  "name": "my_portfolio_2.0",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -11,6 +11,8 @@
   "dependencies": {
     "@react-three/drei": "^9.111.3",
     "@react-three/fiber": "^8.17.6",
+    "gltfjsx": "^6.5.2",
+    "leva": "^0.9.35",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "three": "^0.167.1"
