@@ -44,9 +44,9 @@ export function Avatar(props) {
 	});
 
 	useEffect(() => {
-		actions[animation].reset().fadeIn(0.2).play();
+		actions[animation].reset().play();
 		return () => {
-			actions[animation].reset().fadeOut(0.2);
+			actions[animation].reset().stop();
 		};
 	}, [animation]);
 
