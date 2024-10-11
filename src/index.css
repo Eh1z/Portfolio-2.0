@@ -1,8 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 #root {
   width: 100vw;
   height: 100vh;
+  --accent: #313BAC;
+  --bg: #CDD5DF;
+  --bgLight: #EDF2F8;
+
+
 }
 
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
