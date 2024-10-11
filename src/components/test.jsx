@@ -4,7 +4,7 @@ import {
 	OrbitControls,
 	Sky,
 } from "@react-three/drei";
-import { Avatar } from "./Avatar.jsx";
+import { Avatar } from "./3d/Avatar.jsx";
 import { useControls } from "leva";
 
 export const Test = () => {
