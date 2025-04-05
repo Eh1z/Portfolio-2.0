@@ -32,7 +32,7 @@ const Services = () => {
 			</div>
 
 			{/* Process */}
-			<div className="w-full px-5 py-32 lg:px-8 flex flex-col items-center  bg-dark min-h-[600px]">
+			<div className="flex flex-col items-center w-full h-screen px-5 py-32 lg:px-8 bg-dark">
 				<div className="container flex flex-col text-white">
 					{/* headline */}
 					<span className="font-bold tracking-widest uppercase text-accent">
