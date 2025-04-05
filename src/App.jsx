@@ -13,7 +13,7 @@ import {
 
 function App() {
 	return (
-		<div className="flex flex-col items-center w-full text-3xl ">
+		<div className="flex flex-col items-center justify-start w-full px-5 ">
 			<Navbar />
 			<Hero />
 			<Services />
