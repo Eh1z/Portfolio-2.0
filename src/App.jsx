@@ -1,14 +1,5 @@
-import { useState } from "react";
 import { Navbar, Footer } from "./components";
-import {
-	About,
-	Experience,
-	Faqs,
-	Hero,
-	Services,
-	Testimonials,
-	Works,
-} from "./sections";
+import { About, Faqs, Hero, Services, Testimonials, Works } from "./sections";
 
 function App() {
 	return (
@@ -18,7 +9,6 @@ function App() {
 			<About />
 			<Services />
 			<Works />
-			<Experience />
 			<Testimonials />
 			<Faqs />
 			<Footer />
