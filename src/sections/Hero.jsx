@@ -19,9 +19,7 @@ const Hero = () => {
 			</div>
 
 			{/* Image Div */}
-			<div className="bg-gray-600 rounded-3xl w-full h-[450px]">
-				Image
-			</div>
+			<div className="bg-dark rounded-3xl w-full h-[450px]" />
 
 			{/* Carousel Items */}
 			<div>List of services</div>

@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Navbar, Footer } from "./components";
 import {
 	About,
-	CTA,
 	Experience,
 	Faqs,
 	Hero,
@@ -16,11 +15,10 @@ function App() {
 		<div className="flex flex-col items-center justify-start w-full">
 			<Navbar />
 			<Hero />
-			<Services />
 			<About />
+			<Services />
 			<Works />
 			<Experience />
-			<CTA />
 			<Testimonials />
 			<Faqs />
 			<Footer />
