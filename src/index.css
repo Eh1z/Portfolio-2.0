@@ -9,12 +9,13 @@
 		scroll-behavior: smooth;
 		font-family: "Plus Jakarta Sans", sans-serif;
 		color: var(--color-text);
+		font-size: 1.2rem;
 	}
 }
 
 @theme {
 	--color-accent: #6c5ad5;
-	--color-bgGrey: #f2f3f7;
-	--color-bgDark: #0d0f11;
+	--color-grey: #f2f3f7;
+	--color-dark: #0d0f11;
 	--color-text: #1d2026;
 }
