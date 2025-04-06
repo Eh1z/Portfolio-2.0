@@ -14,12 +14,13 @@ const Works = () => {
 				</p>
 
 				{/* Bento Grid */}
-				<div className="grid w-full grid-cols-5 gap-3 py-16">
+				<div className="grid w-full grid-cols-8 gap-3 py-16">
+					<div className="col-span-5 h-[500px] bg-dark rounded-2xl" />
 					<div className="col-span-3 h-[500px] bg-dark rounded-2xl" />
-					<div className="col-span-2 h-[500px] bg-dark rounded-2xl" />
-					<div className="col-span-2 h-[500px] bg-dark rounded-2xl" />
 					<div className="col-span-3 h-[500px] bg-dark rounded-2xl" />
 					<div className="col-span-5 h-[500px] bg-dark rounded-2xl" />
+					<div className="col-span-4 h-[500px] bg-dark rounded-2xl" />
+					<div className="col-span-4 h-[500px] bg-dark rounded-2xl" />
 				</div>
 			</div>
 		</div>

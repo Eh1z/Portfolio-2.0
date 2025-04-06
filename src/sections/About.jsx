@@ -5,19 +5,19 @@ const About = () => {
 		<div className="container flex flex-col items-center gap-64 px-5 py-32">
 			{/* Text Paragraphs */}
 			<p className="pt-64 text-6xl leading-tight max-w-[1200px]">
-				I specialize in web design, brand identity, and software
-				development, partnering with founders, designers, and teams to
-				create impactful new brands and elevate existing ones.
+				Great design means good business, so I work with founders,
+				designers, and teams to create impactful new brands and elevate
+				existing ones.
 			</p>
 
-			<p className=" text-6xl leading-tight max-w-[1200px]">
+			<p className="pt-64 text-6xl leading-tight max-w-[1200px]">
 				With over half a decade of experience in web design &
 				development, I help clients stand out through clear positioning,
 				engaging brand messaging, and designs that resonate.
 			</p>
 
 			{/* Designs */}
-			<div className="w-full ">
+			<div className="w-full pt-32">
 				{/* Image div */}
 				<div className="w-full bg-dark h-[350px] rounded-2xl mb-8" />
 				{/* Text Div */}
